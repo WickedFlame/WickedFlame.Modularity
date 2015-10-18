@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>WickedFlame.Modularity</id>
+    <version>1.2.0</version>
+    <title>WickedFlame MVVM</title>
+    <authors>Christian Walpen</authors>
+    <owners>Christian Walpen</owners>
+    <licenseUrl>https://github.com/WickedFlame/WickedFlame.Modularity/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://wickedflame.github.io/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>@ WickedFlame 2015</copyright>
+    <description>
+A Simple and lightweight framework for creating Modular Applications
+    </description>
+    <summary>Simple and lightweight framework for creating Modular Applications</summary>
+    <tags>WickedFlame Modularity</tags>
+  </metadata>
+  <files>
+    <file src="WickedFlame.Modularity\bin\Release\WickedFlame.Modularity.dll" target="lib\net45\WickedFlame.Modularity.dll" />
+    <file src="WickedFlame.Modularity\bin\Release\WickedFlame.Modularity.XML" target="lib\net45\WickedFlame.Modularity.XML" />
+  </files>
+</package>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleDescriptions>
+    <ModuleDescription Name="TestModule1" Assembly="WickedFlame.Modularity.UnitTest" Type="WickedFlame.Modularity.UnitTest.TestModule1, WickedFlame.Modularity.UnitTest" Version="1.1.0.0">
+      <Parameters>
+        <Parameter Key="Parameter1">
+          <Value xsi:type="xsd:boolean">true</Value>
+        </Parameter>
+        <Parameter Key="Parameter2">
+          <Value xsi:type="xsd:string">Test value</Value>
+        </Parameter>
+      </Parameters>
+    </ModuleDescription>
+  </ModuleDescriptions>
+</ModuleCatalog>

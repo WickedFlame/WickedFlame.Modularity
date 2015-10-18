@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleDescriptions>
+    <!--<ModuleDescription Name="DiagnosticsOutputModule" Assembly="wickedflame.xamldesigner.modules" Type="wickedflame.xamldesigner.modules.DiagnosticsOutputModule" Version="1.0.0.0" IgnoreModule="true">
+      <Parameters>
+        <Parameter Key="ShowConsole">
+          <Value xsi:type="xsd:boolean">true</Value>
+        </Parameter>
+      </Parameters>
+    </ModuleDescription>-->
+    <ModuleDescription Name="TestModule1" Assembly="WickedFlame.Modularity.UnitTest" Type="WickedFlame.Modularity.UnitTest.TestModule1, WickedFlame.Modularity.UnitTest" Version="1.1.0.0" />
+    <ModuleDescription Name="TestModule2" Assembly="WickedFlame.Modularity.UnitTest" Type="WickedFlame.Modularity.UnitTest.TestModule2, WickedFlame.Modularity.UnitTest" Version="1.1.0.0" />
+  </ModuleDescriptions>
+</ModuleCatalog>

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WickedFlame.Modularity", "src\WickedFlame.Modularity\WickedFlame.Modularity.csproj", "{34AEFAC9-15C8-44B5-BDCF-573F59BFF642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WickedFlame.Modularity.UnitTest", "src\WickedFlame.Modularity.UnitTest\WickedFlame.Modularity.UnitTest.csproj", "{2A318F6B-CA48-43B3-BEC8-966A63812289}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E851410-DB89-4EAA-B54D-840D3D9940BD}"
+	ProjectSection(SolutionItems) = preProject
+		src\WickedFlame.Modularity.nuspec = src\WickedFlame.Modularity.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{07EACC96-E6DE-46C9-9D67-F5926B3A3B9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34AEFAC9-15C8-44B5-BDCF-573F59BFF642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AEFAC9-15C8-44B5-BDCF-573F59BFF642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AEFAC9-15C8-44B5-BDCF-573F59BFF642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AEFAC9-15C8-44B5-BDCF-573F59BFF642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A318F6B-CA48-43B3-BEC8-966A63812289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A318F6B-CA48-43B3-BEC8-966A63812289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A318F6B-CA48-43B3-BEC8-966A63812289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A318F6B-CA48-43B3-BEC8-966A63812289}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A318F6B-CA48-43B3-BEC8-966A63812289} = {07EACC96-E6DE-46C9-9D67-F5926B3A3B9E}
+	EndGlobalSection
+EndGlobal
