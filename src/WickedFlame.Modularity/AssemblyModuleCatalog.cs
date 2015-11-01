@@ -25,10 +25,9 @@ namespace WickedFlame.Modularity
                         AssemblyName = assembly.GetName().Name,
                         Name = attribute.Key,
                         //Parameters
-                        TypeName = attribute.Type.Name,// type.Name,
-                        Type = attribute.Type,// type,
+                        TypeName = attribute.Type.Name,
+                        Type = attribute.Type,
                         Version = assembly.GetName().Version.ToString()
-                        //Version
                     });
                 }
             }
